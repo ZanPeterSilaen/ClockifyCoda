@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.navigasi {
+    background-color: cyan;
+    padding: 20px;
+    font-weight: 400;
+    font-size: large;
+    color: #fff;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+#token_coda,
+#token_clockify,
+#username {
+    border: 1px solid;
+    border-radius: 5px;
+}
+
+.form {
+    background: cyan;
+    padding: 50px;
+    border-radius: 20px;
+    font-weight: 500;
+}
+
+.error_msg {
+    color: red;
+}
+
+.error_msg::before {
+    content: "*";
+}
+
+.isi {
+    width: 500px;
+}
